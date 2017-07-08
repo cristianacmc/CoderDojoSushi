@@ -34,6 +34,22 @@ h1{
 	color:white;
 	border-radius: 10px;
 }
+
+table, th, td{
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+tr{
+	background-color: silver;
+}
+
+th, td{
+	vertical-align: top;
+	padding: 0.5em;
+	text-align: left;
+}
+
 ul.menu li{
 	list-style-type: none;
 	display: inline;
