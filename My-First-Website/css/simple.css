@@ -1,3 +1,29 @@
+article{
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	padding: 1em;
+}
+
+aside{
+	float:left;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 1em;
+	background-color: #FFFFC0;
+	color: #2F5670;
+	font-size: 14px;
+	list-style-type: square;
+	padding: 1em;
+}
+
+aside:hoover{
+	transition: 1s ease-in-out;
+}
+
+
 body {
 font-family: sans-serif;
 #background-image:url('../images/ling-ling.png');
